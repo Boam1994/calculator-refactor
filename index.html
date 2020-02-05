@@ -3,14 +3,31 @@
 <head>
 
   <!-- this script is to help evaluate your deployed project -->
-  <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
 
 </head>
 
 <body>
+  <form>
+    <div> 
+      <label for="value1">Value 1 :</label> 
+      <input type="text" id="value1"/> 
+  </div>
+  <div>
+      <label for="value1">Value 1 :</label>
+      <input type="text" id="value2">
+  </div>
+    Operator:
+    <select>
+      <option value="add">Add</option>
+      <option value="add">Minus</option>
+      <option value="add">Divide</option>
+      <option value="add">Multiply</option>
+    </select>
+    <button type="button">Calculate</button>
+  </form>
 
 </body>
-
+<script src="main.js"></script>
 </html>
