@@ -7,8 +7,6 @@
 
 A progam that allows user to make operations like add; minus; divide and multiply
 
-wireframe
-
 ## DOM
 
 | tag name | attributes | role |
